@@ -26,8 +26,9 @@ const App = () => {
             <ToastContainer />
             <Header />
             <About />
-            <Services />
+            
             <Portfolio />
+            <Services />
             <Experience />
             <Contact />
             <Footer />

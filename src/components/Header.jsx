@@ -114,8 +114,8 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="landing-text">
-                <h1>Panayappan</h1>
-                <h6>MERN Stack and a React Native Developer</h6>
+                <h1>Naveen Vijayakumar</h1>
+                <h6>Student and Full-Stack Developer</h6>
             </div>
         </header>
     );

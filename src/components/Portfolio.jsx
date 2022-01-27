@@ -9,7 +9,7 @@ const Portfolio = () => {
         <section className="portfolio" id="portfolio">
             <div className="container">
                 <div className="section-heading">
-                    <h1>Portfolio</h1>
+                    <h1>Projects</h1>
                     <h6>View some of my recent work</h6>
                 </div>
 

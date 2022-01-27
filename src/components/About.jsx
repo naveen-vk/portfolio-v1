@@ -4,12 +4,12 @@ import {
     FaTwitterSquare,
     FaDribbbleSquare,
     FaGithubSquare,
-    FaInstagramSquare,
+    FaLinkedin,
     FaEnvelopeSquare,
     FaDownload,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import profile from "../assets/images/mypic-4jpg.jpg";
+import profile from "../assets/images/mainphoto.jpg";
 import code from "../assets/images/code.png";
 
 const About = () => {
@@ -33,20 +33,21 @@ const About = () => {
                         <h6>Myself</h6>
                     </div>
                     <p className="about-description">
-                        Problem Solver and a Developer who wishes to enhance my
-                        skill and to learn new one's from the community.with a
-                        1.6 years working experience in the development field.
-                        Interested in solving business Problems{" "}
+                    Masters student in USA with a passion for developing scalable web applications.
+                    I have 1 year of industry experience in developing softwares and applications.
+                        
+                        A very much interested student looking for opportunities in software engineering field.
+                       {/* {" "}
                         <span className="icon-text">
                             through
                             <img src={code} alt="code" className="code" />
-                        </span>
+                        </span> */}
                     </p>
                     <div className="social-media">
                         <ul className="nav-list">
                             <li>
                                 <a
-                                    href="https://github.com/panayappan01/"
+                                    href="https://github.com/naveen-vk/"
                                     className="icon-link"
                                     target="_blank"
                                     rel="noreferrer"
@@ -56,17 +57,17 @@ const About = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://www.instagram.com/panayappan_lakshmanan/"
+                                    href="https://www.linkedin.com/in/naveen-vk/"
                                     className="icon-link"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    <FaInstagramSquare className="twitter" />
+                                    <FaLinkedin className="twitter" />
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="mailto:panayappan02@gmail.com"
+                                    href="mailto:nv56x@outlook.com"
                                     className="icon-link"
                                     target="_blank"
                                     rel="noreferrer"
