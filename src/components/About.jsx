@@ -33,7 +33,7 @@ const About = () => {
                         <h6>Myself</h6>
                     </div>
                     <p className="about-description">
-                    Masters student in USA with a passion for developing scalable web applications.
+                    Graduate student in USA with a passion for developing scalable web applications.
                     I have 1 year of industry experience in developing softwares and applications.
                         
                         A very much interested student looking for opportunities in software engineering field.

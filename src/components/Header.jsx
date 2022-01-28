@@ -63,7 +63,7 @@ const Header = () => {
                             delay={20}
                             offset={-70}
                         >
-                            Services
+                            Skills
                         </Link>
                     </li>
                     <li>
@@ -78,7 +78,7 @@ const Header = () => {
                             delay={20}
                             offset={10}
                         >
-                            Portfolio
+                            Projects
                         </Link>
                     </li>
                     <li>
@@ -108,6 +108,21 @@ const Header = () => {
                             delay={20}
                             offset={10}
                         >
+                            Education
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={toggleNav}
+                            className="nav-link"
+                            activeClass="active-nav-link"
+                            to="contact"
+                            smooth={true}
+                            spy={true}
+                            duration={2000}
+                            delay={20}
+                            offset={10}
+                        >
                             Contact
                         </Link>
                     </li>
@@ -115,7 +130,7 @@ const Header = () => {
             </nav>
             <div className="landing-text">
                 <h1>Naveen Vijayakumar</h1>
-                <h6>Student and Full-Stack Developer</h6>
+                <h6>Student & Software Engineer</h6>
             </div>
         </header>
     );

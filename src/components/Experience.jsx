@@ -15,13 +15,13 @@ const Experience = () => {
                     data-aos-delay="300"
                 >
                     <ul>
-                        <li className="date" data-date="July 2021 - Present">
-                            <h1>QpiCloud</h1>
-                            <p>Application Developer</p>
+                        <li className="date" data-date="Jan 2021 - June 2021">
+                            <h1>Cognizant Technology Solutions</h1>
+                            <p>Software Engineer</p>
                         </li>
-                        <li className="date" data-date="June 2020 - May 2021">
-                            <h1>Hackowls Software</h1>
-                            <p>Full Stack Developer</p>
+                        <li className="date" data-date="July 2020 - Dec 2020">
+                            <h1>Examly.ai</h1>
+                            <p>Software Engineer</p>
                         </li>
                     </ul>
                 </div>

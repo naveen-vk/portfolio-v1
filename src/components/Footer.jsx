@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 const Footer = () => {
     return (
         <footer className="copyright">
-            <p>&copy; {new Date().getFullYear()} Panayappan</p>
-
+            <p> {new Date().getFullYear()} Naveen Vijayakumar - Kansas City, Missouri</p>
+            
             <Link
                 to="home"
                 smooth={true}

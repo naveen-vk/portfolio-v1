@@ -6,6 +6,7 @@ import {
     About,
     Services,
     Portfolio,
+    Education,
     Experience,
     Contact,
     Footer,
@@ -26,10 +27,12 @@ const App = () => {
             <ToastContainer />
             <Header />
             <About />
-            
-            <Portfolio />
             <Services />
+            <Portfolio />
+            
             <Experience />
+            <Education/>
+            
             <Contact />
             <Footer />
         </>

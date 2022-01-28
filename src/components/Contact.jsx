@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import { RiSendPlane2Fill } from "react-icons/ri";
 import { toast, ToastContainer } from "react-toastify";
 import emailjs from "@emailjs/browser";
+import {
+    
+    FaGithubSquare,
+    FaLinkedin,
+    FaEnvelopeSquare,
+
+} from "react-icons/fa";
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -58,65 +65,45 @@ const Contact = () => {
                     style={{ marginBottom: "5rem" }}
                 >
                     <h1>Contact</h1>
-                    <h6>Let's work together</h6>
+                    <h6></h6>
                 </div>
+                <div className="social-media">
+                        <ul className="nav-list">
+                           
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/naveen-vk/"
+                                    className="icon-link"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <FaLinkedin className="twitter" />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/naveen-vk/"
+                                    className="icon-link"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <FaGithubSquare className="fb" />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="mailto:nv56x@outlook.com"
+                                    className="icon-link"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <FaEnvelopeSquare className="dribble" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <form
-                    onSubmit={sendEmail}
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                >
-                    <label htmlFor="name">Name:</label>
-                    <input
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your name."
-                        required
-                    />
-                    <label htmlFor="email">Email:</label>
-                    <input
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your Email."
-                        required
-                    />
-                    {/* TODO: */}
-                    {/* <label htmlFor="service">Service:</label>
-                    <select name="service" id="service">
-                        <option value="">Web Design</option>
-                        <option value="">Web Development</option>
-                        <option value="">Web Design/Development</option>
-                    </select> */}
-                    <label htmlFor="subject">Message:</label>
-                    <textarea
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        name="subject"
-                        id="subject"
-                        cols="10"
-                        rows="10"
-                    ></textarea>
-                    {/* TODO: */}
-                    {/* <input type="submit" value="Submit" /> */}
-                    <button
-                        onClick={sendEmail}
-                        type="submit"
-                        className="cta-contact"
-                        disabled={loading}
-                    >
-                        {loading ? "Sending..." : "Send"}
-                        <RiSendPlane2Fill
-                            color="#eee"
-                            style={{ marginLeft: 8 }}
-                        />
-                    </button>
-                </form>
+                
             </div>
         </section>
     );
