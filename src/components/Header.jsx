@@ -116,7 +116,7 @@ const Header = () => {
                             onClick={toggleNav}
                             className="nav-link"
                             activeClass="active-nav-link"
-                            to="contact"
+                            to="education"
                             smooth={true}
                             spy={true}
                             duration={2000}

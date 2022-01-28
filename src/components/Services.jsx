@@ -1,6 +1,6 @@
 import React from "react";
-import { FaLayerGroup, FaCode, FaChartLine, FaAndroid } from "react-icons/fa";
-
+import { FaLayerGroup, FaCode, FaChartLine, FaHtml5 } from "react-icons/fa";
+import { DiJavascript1 } from "react-icons/di";
 const Services = () => {
     return (
         <section className="services" id="services">
@@ -17,7 +17,7 @@ const Services = () => {
                         data-aos-delay="300"
                     >
                         <div className="icon-container">
-                            <FaCode />
+                        <FaCode/>
                         </div>
                         <h1>Programming Languages</h1>
                         <p>
@@ -30,7 +30,7 @@ const Services = () => {
                         data-aos-delay="600"
                     >
                         <div className="icon-container">
-                            <FaAndroid />
+                            <FaHtml5 />
                         </div>
                         <h1>Web Technologies</h1>
                         <p>
@@ -43,7 +43,7 @@ const Services = () => {
                         data-aos-delay="900"
                     >
                         <div className="icon-container">
-                            <FaLayerGroup />
+                            <DiJavascript1 />
                         </div>
                         <h1>Javascript Frameworks</h1>
                         <p>
@@ -56,14 +56,13 @@ const Services = () => {
                         data-aos-delay="900"
                     >
                         <div className="icon-container">
-                            <FaLayerGroup />
+                            < FaLayerGroup/>
                         </div>
                         <h1>Big Data Tools</h1>
                         <p>
                             Apache Spark & Hadoop   
                         </p>
                     </div>
-                    
                 </div>
             </div>
         </section>
