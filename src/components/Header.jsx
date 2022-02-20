@@ -130,7 +130,7 @@ const Header = () => {
             </nav>
             <div className="landing-text">
                 <h1>Naveen Vijayakumar</h1>
-                <h6>Student & Software Engineer</h6>
+                <h6>Graduate Student | Software Engineer</h6>
             </div>
         </header>
     );
